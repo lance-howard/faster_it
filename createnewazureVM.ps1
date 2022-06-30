@@ -7,17 +7,17 @@
 # added this to line #16 $azureStorageAccountName	= "fastercloudhosteddiag"
 $vmAdminUsername = "fasteradmin"
 $vmAdminPassword = ConvertTo-SecureString "aZS1VN9WGy41" -AsPlainText -Force
-$vmComputerName = "stamfordct"
+$vmComputerName = "computernamehere"
 #Define the following parameters for the Azure resources.
 $azureLocation              = "EastUS"
 $azureResourceGroup         = "FASTERCloudHosted"
-$azureVmName                = "stamfordct"
-$azureVmOsDiskName          = "stamfordctDisk"
+$azureVmName                = "AzureVMnameHere"
+$azureVmOsDiskName          = "CustomerNameDisk"
 $azureStorageAccountName	= "fastercloudhosteddiag"
 $azureVmSize                = "Standard_B2ms"
 #Define the networking information.
-$azureNicName               = "stamfordct-NIC"
-$azurePublicIpName          = "stamfordct-IP"
+$azureNicName               = "customer-NIC"
+$azurePublicIpName          = "customer-IP"
 #Define the existing VNet information.
 $azureVnetName              = "fastercloudhostedpublic"
 $azureVnetSubnetName        = "fasterhostedpublic"
